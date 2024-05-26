@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+:root {
+    --light-gray: rgb(70, 70, 70);
+    --khaki: #FFFDD0;
+}
+
 * {
     padding:0;
     margin:0;
@@ -18,28 +23,37 @@ body {
     background-image: url(./assets/theatre-551797_1920.jpg);
 }
 
-header {
-    background-color: black;
-    height: 100px;
-}
-
-nav button {
-    background-color: red;
-}
-
-.container {
-
-    max-width: 800px;
-    background-color: #FFFDD0;
-    padding: 0 12px;
-    border-radius: 8px;
-}
-
 h1, h2 {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'MyFont';
     text-align: center;
     color:black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.75em;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+p {
+    /* font-family: 'MyFont'; */
+    /* text-align: center; */
+
 }
 
 img {
@@ -51,8 +65,46 @@ img {
     max-width: 80%;
 }
 
-p {
-    font-family: 'MyFont';
-    /* text-align: center; */
 
+header {
+    background-color: black;
+    height: 100px;
+}
+
+nav button {
+    background-color: var(--khaki);
+    border:none;
+    border-radius:5px;
+    min-width: 60px;
+    min-height: 40px;
+
+}
+
+nav button:focus {
+    background-color: red;
+}
+
+.container, .menuContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+    max-width: 800px;
+    background-color: var(--khaki);
+    padding: 0 12px;
+    border-radius: 8px;
+}
+
+
+
+.menuContainer h3 {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.menuContainer p {
+    margin-bottom: 16px;
+    font-size: .9em;
+    color: var(--light-gray);
 }

@@ -4,8 +4,6 @@ import aboutPageLoad from "./about.js"
 import "./style.css";
 
 
-console.log('Testies')
-
 const content = document.getElementById('content')
 const homeBtn = document.getElementById('home')
 const aboutBtn = document.getElementById('about')
