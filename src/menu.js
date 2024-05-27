@@ -1,5 +1,13 @@
 function menuPageLoad() {
 
+    const homeBtn = document.getElementById('home')
+    const menuBtn = document.getElementById('menu')
+    const contactBtn = document.getElementById('contact')
+
+    homeBtn.classList.remove("current")
+    menuBtn.classList.add("current")
+    contactBtn.classList.remove("current")
+
     const content = document.getElementById('content')
     const container = document.createElement('div')
     container.classList.add('menuContainer')
