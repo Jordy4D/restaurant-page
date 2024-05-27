@@ -1,15 +1,17 @@
-function aboutPageLoad() {
+import Map from "./assets/steak-and-late.JPG"
+
+function contactPageLoad() {
 
     const content = document.getElementById('content')
     const container = document.createElement('div')
     container.classList.add('container')
 
     const header = document.createElement('h1')
-    const image = document.createElement('img')
+    const image = new Image()
     const text = document.createElement('p')
     
-    header.textContent = "About Us";
-    image.src = 'https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/shulas-steakhouse-steak.jpg';
+    header.textContent = "Contact Us";
+    image.src = Map;
     text.textContent = `Welcome to the world's premier late-night steak house located on State & Lake St. in downtown Chicago.`;
 
 
@@ -22,4 +24,4 @@ function aboutPageLoad() {
 
 }
 
-export default aboutPageLoad;
+export default contactPageLoad;

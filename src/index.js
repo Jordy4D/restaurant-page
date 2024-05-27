@@ -1,17 +1,17 @@
 import homePageLoad from "./home.js";
 import menuPageLoad from "./menu.js";
-import aboutPageLoad from "./about.js"
+import contactPageLoad from "./contact.js"
 import "./style.css";
 
 
 const content = document.getElementById('content')
 const homeBtn = document.getElementById('home')
 const menuBtn = document.getElementById('menu')
-const aboutBtn = document.getElementById('about')
+const contactBtn = document.getElementById('contact')
 
 homeBtn.classList.add('navHome')
 menuBtn.classList.add('navMenu')
-aboutBtn.classList.add('navAbout')
+contactBtn.classList.add('navContact')
 
 
 homeBtn.addEventListener('click', function() {
@@ -24,9 +24,9 @@ menuBtn.addEventListener('click', function() {
     menuPageLoad();
 })
 
-aboutBtn.addEventListener('click', function() {
+contactBtn.addEventListener('click', function() {
     content.innerHTML = '';
-    aboutPageLoad();
+    contactPageLoad();
 })
 
 homePageLoad();

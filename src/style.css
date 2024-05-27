@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: 'MyFont';
     src: url('./Precious.ttf') format('ttf');
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 :root {
     --light-gray: rgb(70, 70, 70);
@@ -50,11 +50,11 @@ h4 {
     font-size: 1.25em;
 }
 
-p {
-    /* font-family: 'MyFont'; */
-    /* text-align: center; */
+/* p {
+    font-family: 'MyFont';
+    text-align: center;
 
-}
+} */
 
 img {
     display: block;
@@ -63,6 +63,10 @@ img {
     justify-content: center;
     align-items: center;
     max-width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 48px 0;
 }
 
 
@@ -101,10 +105,11 @@ nav button:focus {
 .menuContainer h3 {
     margin-top: 30px;
     margin-bottom: 16px;
+    text-decoration: underline;
 }
 
 .menuContainer p {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     font-size: .9em;
     color: var(--light-gray);
 }
