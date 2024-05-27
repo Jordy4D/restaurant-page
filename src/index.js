@@ -6,8 +6,13 @@ import "./style.css";
 
 const content = document.getElementById('content')
 const homeBtn = document.getElementById('home')
-const aboutBtn = document.getElementById('about')
 const menuBtn = document.getElementById('menu')
+const aboutBtn = document.getElementById('about')
+
+homeBtn.classList.add('navHome')
+menuBtn.classList.add('navMenu')
+aboutBtn.classList.add('navAbout')
+
 
 homeBtn.addEventListener('click', function() {
     content.innerHTML = '';

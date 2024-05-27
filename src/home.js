@@ -4,6 +4,9 @@ function homePageLoad() {
     const container = document.createElement('div')
     container.classList.add('container')
 
+    const homeBtn = document.getElementById('home')
+    homeBtn.classList.add('navHome')
+
     const header = document.createElement('h1')
     const subheader = document.createElement('h2')
     const image = document.createElement('img')
