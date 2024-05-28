@@ -17,9 +17,10 @@
 }
 
 body {
+    min-height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-image: url(./assets/theatre-551797_1920.jpg);
 }
