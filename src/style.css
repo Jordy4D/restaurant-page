@@ -151,6 +151,10 @@ nav button:hover {
     color: var(--light-gray);
 }
 
+.menuContainer {
+    padding-bottom: 24px;
+}
+
 .contactContainer h1 {
     margin-bottom: 36px;
 }

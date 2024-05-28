@@ -27,14 +27,14 @@ function menuPageLoad() {
     const appFourSub = document.createElement('p')
     
     appHead.textContent = `Starters`;
-    appOne.textContent = `Appetizer`;
-    appOneSub.textContent = `Appetizer`;
-    appTwo.textContent = `Appetizer`;
-    appTwoSub.textContent = `Appetizer`;
-    appThree.textContent = `Appetizer`;
-    appThreeSub.textContent = `Appetizer`;
-    appFour.textContent = `Appetizer`;
-    appFourSub.textContent = `Appetizer`;
+    appOne.textContent = `Wagyu Filet Sliders`;
+    appOneSub.textContent = `Japanese Wagyu | Three $15.99 / Six $29.99`;
+    appTwo.textContent = `Chilled Oysters`;
+    appTwoSub.textContent = `East Coast & West Coast | Six $23.99 / Twelve $39.99 `;
+    appThree.textContent = `American Wagyu Tataki`;
+    appThreeSub.textContent = `Black Garlic Ponzu, Crispy Potatoes | $23.99`;
+    appFour.textContent = `Crispy Calamari`;
+    appFourSub.textContent = `Mediterranean Octopus, Jalapeno Crema | $20.99`;
     
     //entrees
     const entHead = document.createElement('h3')
@@ -48,14 +48,14 @@ function menuPageLoad() {
     const entFourSub = document.createElement('p')
 
     entHead.textContent = `Entrees`;
-    entOne.textContent = `Entree`;
-    entOneSub.textContent = `Entree`;
-    entTwo.textContent = `Entree`;
-    entTwoSub.textContent = `Entree`;
-    entThree.textContent = `Entree`;
-    entThreeSub.textContent = `Entree`;
-    entFour.textContent = `Entree`;
-    entFourSub.textContent = `Entree`;
+    entOne.textContent = `Bone-In New York Strip`;
+    entOneSub.textContent = `American Wagyu | $94.99`;
+    entTwo.textContent = `Porterhouse`;
+    entTwoSub.textContent = `28-Day Prime Aged | $189.99`;
+    entThree.textContent = `Center-Cut Filet`;
+    entThreeSub.textContent = `Grass-Fed Beef | $69.99`;
+    entFour.textContent = `Whole Roasted Denver Sole`;
+    entFourSub.textContent = `Brown Butter, Champagne | $89.99`;
 
     //deserts
     const desHead = document.createElement('h3')
@@ -69,14 +69,14 @@ function menuPageLoad() {
     const desFourSub = document.createElement('p')
 
     desHead.textContent = `Deserts`;
-    desOne.textContent = `Desert`;
-    desOneSub.textContent = `Desert`;
-    desTwo.textContent = `Desert`;
-    desTwoSub.textContent = `Desert`;
-    desThree.textContent = `Desert`;
-    desThreeSub.textContent = `Desert`;
-    desFour.textContent = `Desert`;
-    desFourSub.textContent = `Desert`;
+    desOne.textContent = `Steak & Late Cheesecake`;
+    desOneSub.textContent = `Cookie Butter, Vanilla Whipped Cream | $13.99`;
+    desTwo.textContent = `Crème Brûlée`;
+    desTwoSub.textContent = `Coffee or Chocolate | $15.99`;
+    desThree.textContent = `Cookies and Cream`;
+    desThreeSub.textContent = `Ganache Ripple, Sweet Cream Ice Cream, Magic Chocolate Shell | $12.99`;
+    desFour.textContent = `Macaron Platter`;
+    desFourSub.textContent = `Blueberry, Cookie Butter, Raspberry, Espresso | $29.99`;
 
 
     content.appendChild(container)
